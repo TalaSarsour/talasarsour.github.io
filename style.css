@@ -1,8 +1,18 @@
 body{
 	background-color : A3BCC6;
-	text-align: left;
+	text-align: center;
 }
 
 h1{
+	text-align: center;
+	font-size: 300%;
+}
+
+p{
+	background-color : red;
+	font-family: courier;
+}
+
+li{
 	text-align: center;
 }
