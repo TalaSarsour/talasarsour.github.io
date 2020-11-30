@@ -5,16 +5,23 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h1>Tala Abed Al Qader Yousef Sarsour</h1>
+	<div>
+		<button onClick="print_current_page()">
+			Print My CV
+		</button>
+	</div>
+<h1 onClick="alertfun()">
+	Tala Abed Al Qader Yousef Sarsour
+</h1>
 	<p> NIS offers students with the theoretical and practical parts for all areas of computer networks and information security. NIS Focuses on giving students the skills needed to design develop and maintain wired and wireless computer networks. It provides students with all the tools needed to manage, design, install, configure and operate computer networks. Also NIS gives students ability to understand the forensic requirements needed to prove an attack occurred, identify its origin, assess the extent of the damage or loss of information, and design strategies that ensure data can be recovered
 	</p>
 	<a href="http://www.youtube.com" title="Youtube"></a>
 	<img src="1.jpg" alt="Networks">
 	<br>
-	<h2>
+	<h2 id="edu">
 		My education background :
 	</h2>
-	<ul>
+	<ul id="eduli">	
 		<li>C++</li>
 		<li>Web</li>
 		<li>Database</li>
@@ -36,6 +43,14 @@
 		<li>Art</li>
 		<li>Programming</li>
 		<li>Draw</li>
-	</ul>		
+	</ul>	
 </body>
+    <script type="text/javascript"> 
+		function alertfun(){
+			alert("Welcome, please let me know if you have any questions");
+		}
+        function print_current_page() { 
+            window.print(); 
+        } 
+    </script> 	
 </html>
