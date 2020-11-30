@@ -35,6 +35,9 @@ li{
 	text-align: left;
 }
 
+#edu:hover{
+	color:red;
+}
 #edu:hover + #eduli{
 	color: red;
 	
