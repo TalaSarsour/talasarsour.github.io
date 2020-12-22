@@ -1,0 +1,59 @@
+/* CSS Document */
+header {
+	text-align: center;
+	height: 25px;
+	background-color: black;
+	color: white;	
+}
+footer {
+	text-align: center;
+	height: 25px;
+	background-color: black;
+	color: white;	
+}
+form {
+ background-color: #FFF;
+ height: 600px;
+ width: 600px;
+ margin-right: auto;
+ margin-left: auto;
+ margin-top: 0px;
+ border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+	padding-bottom: 100px;
+}
+input[type=text]{
+	border-color:darkcyan;
+	width: 400px;
+}
+input[type=text]:active{
+	border-color:darkcyan;
+	width: 400px;
+}
+input[type=text]:focus{
+	border-color:darkcyan;
+	width: 400px;
+}
+input{
+	border-color:darkcyan;
+	width: 400px;
+}
+input[type=submit]{
+	background-color: darkblue;
+	height: 50px;
+	width: 100px;
+	color: white;
+}
+textarea{
+	border-color:darkcyan;	
+	width:400px; 
+}
+span{
+	color: red;
+}
+table{
+	width:497px;
+	height:449px;
+	padding-bottom: 100px;
+
+}

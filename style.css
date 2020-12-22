@@ -36,9 +36,11 @@ li{
 }
 
 #edu:hover{
-	color:red;
+	background-color: red;
+	/*color:red;*/
 }
 #edu:hover + #eduli{
-	color: red;
+	/*color: red;*/
+	background-color: red;
 	
 }
